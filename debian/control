@@ -1,0 +1,13 @@
+Source: ros-groovy-std-msgs
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-langs-dev,ros-groovy-catkin,ros-groovy-genmsg
+Homepage: http://www.ros.org/wiki/rospack
+Standards-Version: 3.9.2
+
+Package: ros-groovy-std-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-langs
+Description: Standard ROS Messages including common message types representing primitive data types and other basic message constructs, such as multiarrays. For common, generic robot-specific message types, please see common_msgs.
+
