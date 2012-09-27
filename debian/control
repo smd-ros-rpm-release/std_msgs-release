@@ -1,0 +1,16 @@
+Source: ros-fuerte-std-msgs
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-catkin,ros-fuerte-langs-dev,ros-fuerte-genmsg
+Homepage: http://www.ros.org/wiki/std_msgs
+Standards-Version: 3.9.2
+
+Package: ros-fuerte-std-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-fuerte-langs,pkg-config
+Description: Standard ROS Message
+ .
+ This stack contains the packages:
+ * std_msgs: std_msgs contains common message types representing primitive data types and other basic message constructs, such as multiarrays. For common, generic robot-specific message types, please see common_msgs.
+
