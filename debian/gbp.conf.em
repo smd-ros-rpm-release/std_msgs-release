@@ -1,3 +1,3 @@
 [git-buildpackage]
-upstream-branch=release/std_msgs/0.5.7
+upstream-branch=@(release_tag)
 upstream-tree=branch
