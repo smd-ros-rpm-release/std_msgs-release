@@ -1,0 +1,12 @@
+Source: ros-indigo-std-msgs
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin, ros-indigo-message-generation
+Homepage: http://www.ros.org/wiki/std_msgs
+Standards-Version: 3.9.2
+
+Package: ros-indigo-std-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime
+Description: Standard ROS Messages including common message types representing primitive data types and other basic message constructs, such as multiarrays. For common, generic robot-specific message types, please see common_msgs.
