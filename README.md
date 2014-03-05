@@ -1,3 +1,22 @@
+## std_msgs (indigo) - 0.5.8-1
+
+User `dthomas@drudge` released the packages in the `std_msgs` repository into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo std_msgs` on `Wed, 05 Mar 2014 01:51:31 -0000`
+
+The `std_msgs` package was released.
+
+Version of package(s) in repository `std_msgs`:
+- rosdistro version: `0.5.8-0`
+- old version: `0.5.8-0`
+- new version: `0.5.8-1`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## std_msgs - 0.5.8-0
 
 User `dthomas@drudge` released the packages in the `std_msgs` repository by running `/usr/bin/bloom-release -r indigo -t indigo std_msgs` on `Thu, 30 Jan 2014 01:51:52 -0000`
